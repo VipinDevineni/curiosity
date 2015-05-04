@@ -1,0 +1,60 @@
+<html>
+<head>
+<style type="text/css">
+button
+{
+border:2px outset;
+}
+.toolbar
+{
+text-align:center;
+background:buttonface;
+background-color:teal; 
+margin:1em;
+padding:1em;
+position: absolute;
+width: 46%;
+height: 8%;
+left: 23%;
+}
+.up
+{
+border:2px outset;
+}
+.dn
+{
+border:2px inset;
+background:buttonhighlight;
+}
+</style>
+
+<script type="text/javascript">
+var on;
+function setState(el) {
+if(el != on)  {
+if(on) {
+on.className = "up";
+}
+el.className = "dn";
+on = el;
+}
+var radnum = el.value.replace(/[^1-9]/gi,"");  // required for IE
+alert (radnum);  // for testing
+}
+</script>
+
+</head>
+<body>
+<div class="toolbar">
+<button value = "1" onclick="setState(this)"> - 01 - </button>
+<button value = "2 "onclick="setState(this)"> - 02 - </button>
+<button value = "3" onclick="setState(this)"> - 03 - </button>
+<button value = "4" onclick="setState(this)"> - 04 - </button>
+<button value = "5" onclick="setState(this)"> - 05 - </button>
+<button value = "6" onclick="setState(this)"> - 06 - </button>
+<button value = "7" onclick="setState(this)"> - 07 - </button>
+<button value = "8" onclick="setState(this)"> - 08 - </button>
+<button value = "9" onclick="setState(this)"> - 09 - </button>
+</div>
+</body>
+</html>

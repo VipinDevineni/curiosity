@@ -1,0 +1,96 @@
+body { 
+	padding-top: 65px;	
+}
+
+#map_canvas {
+	margin-bottom: 20px;
+	min-height: 600px;
+}
+
+.line-header {
+	border-color: #E0E0E0;
+	border-style: solid;
+	border-width: 0px 1px 1px;
+}
+
+.list-container div {
+	border-color: #E0E0E0;
+	border-style: solid;
+	border-width: 0px 1px 1px;
+}
+
+.list-header {
+	height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 18px 19px 18px 22px;
+}
+
+.list-messages-container {
+	height: 546px;
+	padding-left: 19px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.search-results
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.search-result {
+	padding: 5px 0px 5px;
+}
+
+.search-result a{
+	display:block;
+    width:100px;
+    height:100px;
+}
+
+.preference-results
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.preference-result {
+	padding: 5px 0px 5px;
+}
+
+.preference-result a{
+	display:block;
+    width:100px;
+    height:100px;
+}
+
+.choice-results
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.choice-result {
+	padding: 5px 0px 5px;
+}
+
+.choice-result a{
+	display:block;
+    width:100px;
+    height:100px;
+}
+
+.btn-up
+{
+border:2px outset;
+}
+
+.btn-dn
+{
+border:2px inset;
+background:buttonhighlight;
+}
